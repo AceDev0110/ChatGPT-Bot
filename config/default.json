@@ -1,0 +1,40 @@
+{
+  "debug": 1,
+  "bot": {
+    "token": "TELEGRAM_BOT_TOKEN",
+    "groupIds": [], 
+    "userIds": [],
+    "chatCmd": "/chat",
+    "queue": true
+  },
+  "api": {
+    "type": "official", 
+    "browser": {
+      "email": "ACCOUNT_EMAIL",
+      "password": "ACCOUNT_PASSWORD",
+      "isGoogleLogin": false,
+      "isProAccount": false,
+      "executablePath": "",
+      "nopechaKey": "",
+      "captchaToken": "",
+      "userDataDir": "",
+      "timeoutMs": 120000 
+    },
+    "official": {
+      "apiKey": "API_KEY",
+      "apiBaseUrl": "",
+      "completionParams": {},
+      "systemMessage": "",
+      "maxModelTokens": 0, 
+      "maxResponseTokens": 0, 
+      "timeoutMs": 60000 
+    },
+    "unofficial": {
+      "accessToken": "ACCESS_TOKEN",
+      "apiReverseProxyUrl": "",
+      "model": "",
+      "timeoutMs": 120000 
+    }
+  },
+  "proxy": ""
+}
